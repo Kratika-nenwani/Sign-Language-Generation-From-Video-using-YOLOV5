@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Detection</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #343a40 !important;
+            padding: 10px 0; /* Add padding to navbar */
+        }
+
+        .navbar-brand {
+            font-size: 28px;
+            color: #fff !important;
+            font-weight: bold;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #fff;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+
+        .container {
+            margin-top: 20px; /* Adjust container margin */
+        }
+
+        h1 {
+            color: #343a40;
+            text-align: center;
+            font-size: 42px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            margin-top: 20px;
+            font-size: 22px;
+            padding: 12px 24px;
+            border-radius: 8px; /* Add border radius */
+        }
+
+        .jumbotron {
+            background-color: #f8f9fa; /* Lighten jumbotron background */
+            padding: 30px;
+            margin-top: 50px;
+            border-radius: 20px;
+        }
+
+        .jumbotron h2 {
+            color: #007bff;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .lead {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+
+        hr {
+            border-top: 2px solid #007bff;
+            width: 50%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Sign Language Detection</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome to Sign Language Detection</h1>
+        <form action="/run_detection" method="GET" style="text-align: center;">
+            <button type="submit" class="btn btn-primary btn-lg">Run Detection</button>
+        </form>
+        <form action="/stop_camera" method="GET" style="text-align: center;">
+            <button type="submit" class="btn btn-danger btn-lg">Stop Camera</button>
+        </form>
+
+        <div class="jumbotron">
+            <h2>About Sign Language</h2>
+            <p class="lead">Sign language is a visual means of communicating using gestures, facial expressions, and
+                body language. It is used by deaf and hard-of-hearing individuals to communicate with each other and with
+                people who can hear.</p>
+            <hr>
+            <p>Sign languages are fully-fledged natural languages with their own grammar and vocabulary. They vary from
+                country to country and even within regions of a country.</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
