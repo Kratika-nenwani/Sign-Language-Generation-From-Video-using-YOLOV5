@@ -1,8 +1,6 @@
 
 # Sign Language Recognition System
 
-<p align="center"><img src="/path/to/your/logo/image.png" width="400" alt="Sign Language Recognition Logo"></p>
-
 ## Overview
 
 The **Sign Language Recognition System** is a Python-based application that aims to detect and recognize various sign language gestures using computer vision techniques. It leverages a live webcam feed to classify hand gestures in real-time, aiding in communication for individuals with hearing or speech impairments.
