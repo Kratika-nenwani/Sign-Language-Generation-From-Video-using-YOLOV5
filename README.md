@@ -1,4 +1,3 @@
-
 # Sign Language Recognition System
 
 ## Overview
