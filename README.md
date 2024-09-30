@@ -114,7 +114,11 @@ If you want to run the system as a web application:
 
 ![image](https://github.com/user-attachments/assets/48e89fb1-fff8-4953-b903-9fadb5653052)
 
-![image](https://github.com/user-attachments/assets/7f9c570b-41f3-481b-8f53-0225d7859ac2)
+![Screenshot 2024-09-30 203044](https://github.com/user-attachments/assets/69a46fdc-0353-4bf9-ad6e-f1ff2758ab42)
+
+![Screenshot 2024-09-30 203236](https://github.com/user-attachments/assets/3b7ca8d5-0864-4dd3-b034-23b67c5a25d2)
+
+
 
 
 
